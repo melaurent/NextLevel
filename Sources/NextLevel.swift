@@ -1128,6 +1128,7 @@ extension NextLevel {
                 
                 let _ = self.addAudioOuput()
                 let _ = self.addVideoOutput()
+                let _ = self.addPhotoOutput()
                 break
             case .videoWithoutAudio:
                 if session.sessionPreset != self.videoConfiguration.preset {
